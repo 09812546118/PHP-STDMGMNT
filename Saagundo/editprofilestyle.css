@@ -1,0 +1,183 @@
+body {
+    font-family: Verdana,sans-serif;
+    background-color: #f4f4f4;
+	margin-bottom: 10px;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-radius: 2px;
+    background-color: #343434;
+	color: white;
+}
+
+.logout-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logout-button{
+	height: 40px;
+	width: 100px;
+	background-color: #FF0000;
+	color: white;
+	border-radius: 3px;
+	font-weight: 600;
+	border-width: 0;
+}
+
+.logout-button:hover{
+	cursor: pointer;
+	background-color: #8B0000;
+}
+
+.main-container {
+	width: 300px;
+	height: auto;
+    text-align: left;
+	margin-top: -850px;
+	margin-left: -10px;
+	padding: 20px;
+}
+
+.men{
+	margin-top: 20px;
+}
+
+.men a{
+	text-decoration: none;
+}
+
+.men-btn {
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+    border-radius: 3px;
+	border-width: 0;
+	background-color: #343434;
+	text-align: center;
+	color: white;
+}
+
+.men-btn:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+.homelogo img{
+	margin-left: 5px;
+	width: 3%;
+	height: auto;
+}
+
+.homelogo h2{
+	margin-left: 80px;
+	margin-top: -50px;
+	padding: 5px;
+}
+
+.latest{
+    width: auto;
+	height: 790px;
+    margin-left: 350px;
+    margin-top: 85px;
+    margin-bottom: 100px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.latest h2{
+	margin-top: 0;
+	text-align: left;
+}
+
+.latest p{
+	text-align: left;
+}
+
+.main-user img{
+	margin-top: -50px;
+	width: 30%;
+	padding: 3px;
+	border-radius: 3px;
+	border: 0px;
+	background-color: #ffff;
+}
+
+.welcome-user h1{	
+	display: flex;
+	text-align: left;
+	padding: 5px;
+	margin-left: 140px;
+	margin-top: -120px;
+}
+
+.welcome-user h2{
+	padding: 5px;
+	margin-left: 140px;
+	margin-top: -25px;
+	color: blue;
+}
+
+.rules{
+	text-decoration: none;
+	color: black;
+}
+
+.rules:hover{
+	filter:brightness(500%);
+	font-weight: 600;
+}
+
+/* CSS for Edit Profile Form */
+.edit-profile-form {
+    max-width: 400px;
+	margin-left: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-profile-form input,
+.edit-profile-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.edit-profile-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-profile-form button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .edit-profile-form {
+        width: 90%;
+    }
+}

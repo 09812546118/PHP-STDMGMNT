@@ -1,0 +1,281 @@
+body {
+    font-family: Verdana,sans-serif;
+    background-color: #EBDEF0;
+	margin-bottom: 10px;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-radius: 2px;
+    background-color: #6C3483;
+	color: white;
+}
+
+main {
+}
+
+.logout-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logout-button{
+	height: 40px;
+	width: 100px;
+	background-color: #FF0000;
+	color: white;
+	border-radius: 6px;
+	font-weight: 600;
+	border-width: 0;
+}
+
+.logout-button:hover{
+	cursor: pointer;
+	background-color: #8B0000;
+}
+
+.main-container {
+	width: 400px;
+	height: 400px;
+    text-align: left;
+	margin-top: -900px;
+	margin-left: -10px;
+	padding: 20px;
+}
+
+.men{
+	margin-top: 50px;
+}
+
+.men a{
+	text-decoration: none;
+}
+
+.men-btn {
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+    border-radius: 3px;
+	border-width: 0;
+	background-color: #6C3483;
+	text-align: center;
+	color: white;
+}
+
+.men-btn:hover {
+	background-color: #4A235A;
+	cursor: pointer;
+}
+
+.homelogo img{
+	margin-left: 5px;
+	width: 3%;
+	height: auto;
+}
+
+.homelogo h2{
+	margin-left: 80px;
+	margin-top: -50px;
+	padding: 5px;
+}
+
+.latest{
+    width: 1390px;
+	height: 790px;
+    margin-left: 460px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.latest h2{
+	margin-top: 0;
+	text-align: left;
+}
+
+.latest p{
+	text-align: left;
+}
+
+.main-user img{
+	margin-top: -50px;
+	width: 30%;
+	padding: 3px;
+	border-radius: 3px;
+	border: 0px;
+	background-color: #ffff;
+}
+
+.welcome-user h1{
+	display: flex;
+	text-align: left;
+	padding: 5px;
+	margin-left: 140px;
+	margin-top: -120px;
+}
+
+.welcome-user h2{
+	padding: 5px;
+	margin-left: 140px;
+	margin-top: -25px;
+	color: blue;
+}
+
+/* CSS styles for the student information */
+.student-info-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* CSS styles for the student information */
+.student-info {
+    margin-bottom: 2px;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.info-value {
+    margin-left: 10px;
+    color: #333;
+}
+
+.input-container {
+    margin-top: 10px;
+}
+
+.input-container label {
+	font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container select,
+.input-container input[type="number"] {
+    width: calc(100%-30%);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container select {
+    background-color: #f9f9f9;
+}
+
+.input-container input[type="number"] {
+    background-color: #fff;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #6C3483;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #4A235A;
+}
+
+/* Style for search form */
+.searchbar {
+    display: flex; /* Use flexbox to align input and button horizontally */
+    margin-bottom: 20px; /* Add some space below */
+}
+
+/* Style for search input */
+.searchbar input[type="text"] {
+    padding: 10px; /* Add padding */
+    width: 200px; /* Set width of input */
+    margin-right: 10px; /* Add some space to the right of the input */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+/* Style for search button */
+.searchbar button[type="submit"] {
+    background-color: #6C3483; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Add rounded corners */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Hover effect for search button */
+.searchbar button[type="submit"]:hover {
+    background-color: #4A235A; /* Darker green on hover */
+}
+
+/* Style for student info */
+.student-info {
+	border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+/* Style for sit-in options form */
+.sitin-options {
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+/* Style for form labels */
+.sitin-options label {
+    margin-bottom: 10px; /* Add some space below each label */
+    display: block; /* Make labels display as block */
+}
+
+/* Style for select inputs */
+.sitin-options select {
+    width: 100px; /* Make select inputs full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add some space below */
+}
+
+/* Style for session input */
+.sitin-options input[name="session"] {
+    width: 80px; /* Adjust width to leave space for button */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add some space below */
+}
+
+/* Style for submit button */
+.sitin-options button[type="submit"] {
+    background-color: #6C3483; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Add rounded corners */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Hover effect for submit button */
+.sitin-options button[type="submit"]:hover {
+    background-color: #4A235A; /* Darker green on hover */
+}

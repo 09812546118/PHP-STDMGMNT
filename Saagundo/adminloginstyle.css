@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #E2DFD2;
+	padding-bottom: 120px;
+}
+
+.login-container {
+	position: absolute;
+    width: 300px;
+	top: 40%;
+	left: 70%;
+    transform: translateY(-50%);
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 27px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+	font-weight: 600;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-container p {
+	font-size: 15px;	
+}
+
+.login-container a {
+	text-decoration: none;
+}
+
+.login-container input[type="submit"] {
+	font-weight: 600;
+	margin-top: 20px;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #6C3483;
+    color: #f4f4f4;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.login-container input[type="submit"]:hover {
+	font-weight: 600;
+    color: #f4f4f4;
+    background-color: #4A235A;
+}
+
+.logo {
+	position: absolute;
+    top: 50%;
+    left: 50px; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    margin-left: 100px;
+    width: 340px; /* Set width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo p {
+	margin-top: -10px;
+	text-align: center;
+	font-weight: 600;
+	color: white;
+	text-shadow: 0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1),
+             0px 0px 10px rgba(108, 52, 131, 1);
+}
+
+.toindex a{
+	text-decoration: none;
+}
